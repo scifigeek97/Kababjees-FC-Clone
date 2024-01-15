@@ -11,4 +11,49 @@ img{
 .menu-container{
     
   }
- 
+ .topbar{
+  margin: 15px;
+  /* height: 100px;
+  border: 1px black; */
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+ }
+ .location-phone-num{
+  /* display: inline-block;
+  justify-content: flex-end; */
+  display: flex;
+  justify-content: space-between;
+ }
+ .location-button{
+  color: white!important;
+      background-color: red!important;
+      border-color: red!important;
+      padding:20px 12px 20px 12px;
+      margin: 5px;
+      border-radius: 2rem;
+      align-items: center;
+      height: 100%;
+      
+     
+ }
+  .phone-button{
+    
+      color: white!important;
+      background-color: red!important;
+      border-color: red!important;
+      padding:20px 12px 20px 12px;
+      margin: 0;
+      border-radius: 2rem;
+      align-items: center;
+     
+     
+  }
+a:hover{
+  text-decoration: none !important;
+}
+  
+.img-icon{
+  width: 25px;
+}
+  
