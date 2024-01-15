@@ -8,8 +8,36 @@ img{
     justify-content: center;
     
   }
+  .position-rel{
+    position: relative;
+    display: flex;
+  }
+  .menu-list-selector-bar{
+   
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+   
+  }
+  .nav-text{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center ;
+  }
+  
 .menu-container{
     
+  }
+  ul {
+    list-style-type: none;
+    
+  }  li{
+    display: inline-block;
+   padding: 10px;
+   text-align: center;
   }
  .topbar{
   margin: 15px;
@@ -56,4 +84,8 @@ a:hover{
 .img-icon{
   width: 25px;
 }
-  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
