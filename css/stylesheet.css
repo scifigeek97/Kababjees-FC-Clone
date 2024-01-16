@@ -15,10 +15,13 @@ img{
   .menu-list-selector-bar{
    
     flex-direction: row;
-    flex-wrap: nowrap;
+    
     justify-content: center;
     justify-content: space-between;
-    display: flex;
+    /* display: flex;
+    flex-wrap: nowrap; */
+    align-items: center;
+    left: 200px;
    
   }
   .nav-text{
@@ -27,41 +30,80 @@ img{
     font-size: 12px;
     text-align: center ;
   }
+  .search-bar{
+    width: 600px;
+    margin: 4px auto;
+    text-align: center;
+    display: inline-block;
+    
+  }
   
+  .search-bar,input {
+    text-align: center;
+   background-color: rgba(195, 195, 195, 0.6);
+    width: 500px;
+    height: 20px;
+    padding: 5px;
+    margin: 0px 5px 0px 0px;
+    border-radius: 0.5rem;
+  }
+  .search-bar, button{
+    display: inline;
+    height: 20px;
+  }
+
 .menu-container{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+
     
   }
   ul {
     list-style-type: none;
     
   }  li{
-    display: inline-block;
+    justify-content: space-between;
    padding: 10px;
    text-align: center;
+   display: inline-flex;
   }
  .topbar{
   margin: 15px;
-  /* height: 100px;
-  border: 1px black; */
-  display: flex;
+align-items: center;
+  display: flex ; 
   justify-content: space-between;
-  height: 120px;
+  
+  padding: 10px;
  }
  .location-phone-num{
   /* display: inline-block;
   justify-content: flex-end; */
+  
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  
  }
+ .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+.right-items{
+  display: flex;
+  align-items: center;
+}
+
  .location-button{
   color: white!important;
       background-color: red!important;
       border-color: red!important;
-      padding:20px 12px 20px 12px;
+      padding:20px 20px 20px 20px;
       margin: 5px;
-      border-radius: 2rem;
+      border-radius: 1rem;
       align-items: center;
-      height: 100%;
       
      
  }
@@ -70,9 +112,9 @@ img{
       color: white!important;
       background-color: red!important;
       border-color: red!important;
-      padding:20px 12px 20px 12px;
-      margin: 0;
-      border-radius: 2rem;
+      padding:20px 20px 20px 20px;
+      margin: 5px;
+      border-radius: 1rem;
       align-items: center;
      
      
@@ -82,10 +124,48 @@ a:hover{
 }
   
 .img-icon{
-  width: 25px;
+  width: 20px;
 }
   nav{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  
+  .cric-deal-1{
+    display: flex;
+    
+    margin: 15px;
+    box-sizing: border-box;
+    
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    width: 350px;
+    overflow: hidden;
+  }
+  .cric-deal-2{
+    display: flex;
+    
+    margin: 15px;
+    box-sizing: border-box;
+    
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    width: 350px;
+    overflow: hidden;
+  }
+  .cricket-deals-item{
+    display: flex;
+    box-sizing: border-box;
+    
+  }
+  .menu-img img{
+    object-fit: contain;
+    margin: 5px;
   }
