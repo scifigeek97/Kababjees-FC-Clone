@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.bg {
+    height: 100%;
+    width: 100%;
+    background-color: #ece8e8;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+}
+
+.title {
+    background-color: #fff;
+    width: 400px;
+    text-align: center;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    color: red;
+    border: 6px solid red;
+    border-radius: 14px;
+}
+
+.product-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    margin-top: 10px;
+}
+
+.receipt-info {
+    margin-bottom: 20px;
+}
+
+.order-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.product {
+    flex: 1;
+    margin-right: 20px;
+    border-right: 2px dotted #000;
+}
+
+.additional-items {
+    flex: 2;
+    border-right: 2px dotted #000;
+
+}
+
+.additional-item {
+    margin-bottom: 10px;
+}
+
+.totals {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.payment-type {
+    margin-bottom: 20px;
+}
+
+.print-button{
+    margin-left: 350px;
+}
+.print-button,
+.new-order-button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-right: 10px; */
+    border: 2px solid transparent;
+}
+
+.print-button:hover,
+.new-order-button:hover {
+    transition: .4s;
+    border: 2px solid black;
+    color: #000;
+    background-color: transparent;
+}
+.footer{
+  margin-top: 22px;
+    font-weight: bold;
+    text-align: center;
+}
