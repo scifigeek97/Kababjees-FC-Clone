@@ -154,6 +154,14 @@ a:hover{
     width: 350px;
     overflow: hidden;
   }
+  .cric-deal-1:hover{
+    box-shadow: 0 3px 6px rgba(0,0, 0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-8px);
+  }
+  .cric-deal-2:hover{
+    box-shadow: 0 3px 6px rgba(0,0, 0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-8px);
+  }
   .cric-deal-2{
     display: flex;
     
@@ -170,6 +178,10 @@ a:hover{
   }
   .item-wrapper{
     display: flex;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    justify-content: center;
     box-sizing: border-box;
     margin-top: 50px;
     margin-bottom: 50px;
