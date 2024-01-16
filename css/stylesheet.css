@@ -8,68 +8,9 @@ img{
     justify-content: center;
     
   }
-  .position-rel{
-    position: relative;
-    display: flex;
-  }
-  .menu-list-selector-bar{
-   
-    flex-direction: row;
-    
-    justify-content: center;
-    justify-content: space-between;
-    /* display: flex;
-    flex-wrap: nowrap; */
-    align-items: center;
-    left: 200px;
-   
-  }
-  .nav-text{
-    color: #000;
-    text-decoration: none;
-    font-size: 12px;
-    text-align: center ;
-  }
-  .search-bar{
-    width: 600px;
-    margin: 4px auto;
-    text-align: center;
-    display: inline-block;
-    
-  }
   
-  .search-bar,input {
-    text-align: center;
-   background-color: rgba(195, 195, 195, 0.6);
-    width: 500px;
-    height: 20px;
-    padding: 5px;
-    margin: 0px 5px 0px 0px;
-    border-radius: 0.5rem;
-  }
-  .search-bar, button{
-    display: inline;
-    height: 20px;
-  }
 
-.menu-container{
-  align-content: center;
-  align-items: center;
-  text-align: center;
-  width: 80%;
-  margin: auto;
-
-    
-  }
-  ul {
-    list-style-type: none;
-    
-  }  li{
-    justify-content: space-between;
-   padding: 10px;
-   text-align: center;
-   display: inline-flex;
-  }
+  /* TOP SORTA NAV TOP BAR */
  .topbar{
   margin: 15px;
 align-items: center;
@@ -121,17 +62,84 @@ align-items: center;
   }
 a:hover{
   text-decoration: none !important;
+  
 }
   
 .img-icon{
   width: 20px;
 }
+/* ICON NAV MENU */
   nav{
     display: flex;
     align-items: center;
     justify-content: center;
   }
+  .position-rel{
+    position: relative;
+    display: flex;
+  }
+  .menu-list-selector-bar{
+   
+    flex-direction: row;
+    
+    justify-content: center;
+    justify-content: space-between;
+    /* display: flex;
+    flex-wrap: nowrap; */
+    align-items: center;
+    left: 200px;
+   
+  }
+  .nav-text{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center ;
+  }
   
+  /* SEARCH BAR BELOW ICON NAV MENU */
+  .search-bar{
+    width: 600px;
+    margin: 4px auto;
+    text-align: center;
+    display: inline-block;
+    
+  }
+  
+  .search-bar,input {
+    text-align: center;
+   background-color: rgba(195, 195, 195, 0.6);
+    width: 500px;
+    height: 20px;
+    padding: 5px;
+    margin: 0px 5px 0px 0px;
+    border-radius: 0.5rem;
+  }
+  .search-bar, button{
+    display: inline;
+    height: 20px;
+  }
+
+  /* MENU CONTAINER CSS */
+  .menu-container{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  
+      
+    }
+    ul {
+      list-style-type: none;
+      
+    }  li{
+      justify-content: space-between;
+     padding: 10px;
+     text-align: center;
+     display: inline-flex;
+    }
+  /* DIV CSS FOR MENU BOXES */
   .cric-deal-1{
     display: flex;
     
@@ -160,12 +168,18 @@ a:hover{
     width: 350px;
     overflow: hidden;
   }
-  .cricket-deals-item{
+  .item-wrapper{
     display: flex;
     box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
   }
   .menu-img img{
     object-fit: contain;
     margin: 5px;
   }
+
+  @media (
+    
+  )
