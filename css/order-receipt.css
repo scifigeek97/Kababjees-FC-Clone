@@ -1,6 +1,5 @@
-img{
-    
-}
+/* STYLESHEET CREATED BY WASIF */
+
 .banner {
     height: 500px;
     display: flex;
@@ -37,7 +36,7 @@ align-items: center;
   align-items: center;
 }
 
- .location-button{
+ /* .location-button{
   color: white!important;
       background-color: red!important;
       border-color: red!important;
@@ -45,10 +44,9 @@ align-items: center;
       margin: 5px;
       border-radius: 1rem;
       align-items: center;
-      
-     
- }
-  .phone-button{
+      text-decoration: none;   
+ } */
+  .phone-button, .location-button{
     
       color: white!important;
       background-color: red!important;
@@ -57,9 +55,13 @@ align-items: center;
       margin: 5px;
       border-radius: 1rem;
       align-items: center;
-     
-     
-  }
+      text-decoration: none;
+     }
+     .location-button:hover, .phone-button:hover{
+        box-shadow: 0 3px 6px rgba(0,0, 0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-8px);
+    text-decoration: underline;
+     }
 a:hover{
   text-decoration: none !important;
   
@@ -154,11 +156,8 @@ a:hover{
     width: 350px;
     overflow: hidden;
   }
-  .cric-deal-1:hover{
-    box-shadow: 0 3px 6px rgba(0,0, 0,0.16),0 3px 6px rgba(0,0,0,0.23);
-    transform: translate(0px,-8px);
-  }
-  .cric-deal-2:hover{
+
+  .cric-deal-1:hover,.cric-deal-2:hover{
     box-shadow: 0 3px 6px rgba(0,0, 0,0.16),0 3px 6px rgba(0,0,0,0.23);
     transform: translate(0px,-8px);
   }
@@ -191,6 +190,35 @@ a:hover{
     object-fit: contain;
     margin: 5px;
   }
+  .sticky-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 12px 10px 12px;
+    border-radius: 1.1rem;
+    cursor: pointer;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .sticky-button:hover{
+    box-shadow: 0 3px 6px rgba(0,0, 0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-8px);
+    text-decoration: underline;
+  }
+  i{
+    font-size: 20px !important;
+    color: #ff2020;
+  }
+  i:hover{
+    box-shadow: 0 3px 6px rgba(0,0, 0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-8px);
+    text-decoration: underline;}
 
 
 
@@ -213,32 +241,34 @@ a:hover{
 
 
 
-
-/* ORDER PAGE CSSS */
+/* ORDER PAGE CSSS STYLESHEET CREATED BY SOHAIB */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .bg {
     height: 100%;
     width: 100%;
-    background-color: #ece8e8;
+    background-color: #e0dddd;
+    
 }
 
-.container {
+.container2 {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 14px;
+    
 }
 
 .title {
     background-color: #fff;
     width: 400px;
     text-align: center;
-    margin-left: 450px;
+    margin: auto;
     margin-bottom: 20px;
     color: red;
     border: 6px solid red;
@@ -303,6 +333,7 @@ body {
     cursor: pointer;
     /* margin-right: 10px; */
     border: 2px solid transparent;
+    height: auto;
 }
 
 .print-button:hover,
@@ -311,9 +342,55 @@ body {
     border: 2px solid black;
     color: #000;
     background-color: transparent;
+    
 }
 .footer{
   margin-top: 22px;
     font-weight: bold;
     text-align: center;
+}
+
+/* CREATED BY MOHIB */
+
+.container {
+
+    margin-top: 8%;
+    max-width: 600px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.input{
+    height: 20px;
+}
+
+.box {
+    width: 10em;
+    height: 100px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+label {
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button :hover{
+    color:aqua;
+}
+.order-btn{
+    color: white!important;
+      background-color: red!important;
+      border-color: red!important;
+      padding:20px 20px 20px 20px;
+      margin: 5px 5px 5px 5px;
+      border-radius: 1rem;
+      align-items: center;
+      text-decoration: none;
+      left: 100px;
+      
 }
