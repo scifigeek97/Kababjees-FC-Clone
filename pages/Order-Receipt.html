@@ -5,8 +5,8 @@
     <charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Order Receipt</title>
-        <link rel="stylesheet" href="./css/order-receipt.css">
-        <link rel="stylesheet" href="./css/style.css">
+       
+        <link rel="stylesheet" href="../css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -14,6 +14,26 @@
     </head>
 
 <body>
+    <div class="topbar">
+        <div class="location-phone-num">
+            <div class="location">
+                
+                <a class="location-button" href="https://maps.app.goo.gl/nod7zwLJu8dpjRTr5" target="_blank"><span><img class="img-icon" src="../images/icons8-location-50.png"></span><span >Idara Noor-e-haq</span></a>
+            </div>
+           
+            <div class="number">
+                
+                <a class="phone-button" href="tel:021-111-666-111" target=""><span><img class="img-icon" src="../images/icons8-phone-30.png"></span><span >021-111-666-111</span></a>
+            </div>
+        </div>
+        <div class="icon"><a href="../index.html"><img src="../images/KBFC-Icon.png" width="70px"></a></div>
+        <div class="right-items"><div class="login">
+            <a href="../pages/login.html"><i class="fa-solid fa-user"></i></a>
+        </div>
+
+        </div>
+
+    </div>
     <div class="bg">
         <h1 class="title">Order Receipt</h1>
         <div class="container2">
@@ -53,7 +73,7 @@
                     <p class="payment-type">Payment Type: Cash</p>
                 </div>
                 <button class="new-order-button">Place another order</button>
-                <button class="print-button">Print</button>
+                <button class="print-button" onclick="window.print()">Print</button>
                 <div class="footer">
                     <img src="./images/Tick.png" alt="" width="33px">
                     <p>Thank You!</p>
@@ -62,7 +82,7 @@
 
             <a href="/index.html"><h3>Go Back to Home Page</h3></a>
         </div>
-
+        <script src="https://kit.fontawesome.com/1a9391a95d.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

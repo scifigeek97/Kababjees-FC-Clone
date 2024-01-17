@@ -1,0 +1,128 @@
+* {
+box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.body {
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    padding: 0 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.login-card {
+    position: relative;
+    z-index: 3;
+   padding: 55px 45px 45px 40px;
+ /* TOP - RIGHT  BOTTOM  LEFT*/
+    width: 100% + 50px;
+    margin:20px;
+    border-radius: 1.25rem;
+    background: #ffffff2a;
+    
+    text-align: center;
+    border-color: 1px red;
+
+}
+.login-card >h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0px 0px 25px;
+}
+
+.login-card >h4 {
+    font-style: italic;
+    color: #7a7a7af1;
+    margin: 0px 0px 30px;
+}
+ .login-form{
+    width: 100%;
+    margin:0;
+    display: grid;
+    gap: 16px ;
+}
+
+.login-form > input,.login-form > button {
+   
+    width: 100%;
+    size: 30px;
+    height: 40px;
+   
+    
+}
+
+.login-form > input {
+    border: 1.2px solid rgb(156, 156, 156);
+    font-family: inherit;
+    padding: 0px 20px ;
+   
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+
+}
+
+.login-form > input:hover {
+    border: 2px solid #ff7a7a;
+}
+.login-form > button {
+    cursor: pointer;
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    background:#f71b1b;
+    font-weight: 600;
+    color: #ffffff;
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+}
+.login-form > button:hover {
+    background: #ff7a7a;
+}
+.login-form > a {
+    color: #272727;
+    font-size: 1 rem;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 6px;
+    transition: all 0.375s;
+}
+.login-form > a:hover {
+    color: #0e2b4b;
+}
+.fp-card {
+    position: relative;
+    z-index: 3;
+   padding: 55px 45px 35px 30px;
+ /* TOP - RIGHT  BOTTOM  LEFT*/
+    width: 100%;
+    margin:20px;
+    border-radius: 1.25rem;
+    background: #fff;
+    text-align: center;
+
+}
+@keyframes rotate {
+    100%{
+        background-position: 15% 60%;
+    }
+}
+@media (width >= 500px ){
+    body{
+padding: 0;
+    }
+    .login-card{
+margin: 0;
+width: 450px;
+}
+    
+}
