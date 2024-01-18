@@ -1,4 +1,4 @@
-# Kababjees-FC-Clone
+# Kababjees-Fried-Chicken-Clone
 This is a Midterm assignment project where we, Monarch Coders Hub, created a clone website of KababJees Fried Chicken website.
 Monarch Coders Hub are students at the Bano Qabil 2.0, Website Development 1 - Batch 1601
 
