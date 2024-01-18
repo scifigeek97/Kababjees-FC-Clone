@@ -6,3 +6,9 @@ Group Members:
 1) Munib Sami
 2) Sohaib Zafar
 3) Wasif Hassan Niazi
+
+## Project Features
+1) A Home/Landing page
+2) User Login
+3) Order Page
+4) Confirm Order Page
